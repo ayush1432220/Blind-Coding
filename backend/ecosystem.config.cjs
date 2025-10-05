@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "api",
       script: "index.js",
-      instances: "max", 
+      instances: 2, 
       exec_mode: "cluster",
     },
     {
